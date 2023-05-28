@@ -1,0 +1,38 @@
+<!--<!doctype html>
+<title>Result</title>
+<h1>Classification result</h1>
+<p>The image is: {{ result }}</p>
+<a href="/">Try again</a>-->
+
+<!doctype html>
+<html>
+<head>
+    <title>Result</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            font-size: 7em;
+        }
+        p {
+            font-size: 1.5em;
+            color: #333;
+        }
+        a {
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Classification Result</h1>
+    <p>The image is: <strong>{{ result }}</strong></p>
+    <a href="/">Try again</a>
+</body>
+</html>
